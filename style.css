@@ -1,0 +1,78 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+} */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+ } 
+
+.areaCalculator {
+    background-color: rgba(47, 47, 185, 0.71);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    text-align: center;
+}
+
+.areaCalculator h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333333;
+}
+
+.areaCalculator input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.areaCalculator button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.areaCalculator button#periBtn {
+    background-color: #55bec3;
+    color: white;
+}
+
+.areaCalculator button#saheBtn {
+    background-color: #00a1ba;
+    color: white;
+}
+
+.areaCalculator button:hover {
+    opacity: 0.8;
+}
+
+.areaCalculator .result {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333333;
+}
+
+.areaCalculator .result span {
+    font-weight: bold;
+    margin-left: 5px;
+}
